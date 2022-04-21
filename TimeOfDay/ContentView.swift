@@ -10,9 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            List{
-                
-            }.navigationTitle("Time Of Day")
+            VStack{
+                List{
+                    
+                }.navigationTitle("Time Of Day")
+                Text("Hot")
+            }
         }
     }
 }
